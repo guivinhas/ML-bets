@@ -1,0 +1,20 @@
+Manchester city 50
+real madrid 551
+
+
+la liga 140
+
+premier league 39
+
+Manchester city = https://v3.football.api-sports.io/teams/statistics?season=2024&team=50&league=39
+
+real madrid = https://v3.football.api-sports.io/teams/statistics?season=2024&team=50&league=39
+
+
+estatística da partida:
+
+/fixtures/statistics?fixture=215662&team=463
+
+procurar partidas:
+
+/fixtures?league=39&season=2024
