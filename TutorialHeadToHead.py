@@ -1,6 +1,6 @@
 #Como usar Confrontos Direto
 
-from ConfrontosDireto import find_head_to_head_between_teams, extract_teams_from_head_to_head
+from HeadToHead import find_head_to_head_between_teams, extract_teams_from_head_to_head
 
 timeid1 = 524 #PSG
 timeid2 = 86 #Real Madrid

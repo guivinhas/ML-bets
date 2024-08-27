@@ -121,7 +121,7 @@ def find_head_to_head_between_teams(team_id1, team_id2):
         57, 58, 61, 62, 63, 64, 65, 66, 67, 73, 76, 338, 340, 349, 351, 354, 397, 402, 563, 1044
     ] else 'PD'
     
-    # Escolher a competição correta para a pesquisa
+    
     if team1_competition == team2_competition:
         competition_code = team1_competition
     else:
@@ -138,7 +138,7 @@ def find_head_to_head_between_teams(team_id1, team_id2):
         matches_data = get_competition(season, competition_code)
         matches = matches_data.get('matches', [])
     
-        # Encontrar partidas entre os dois times
+        
         head_to_head_matches = find_head_to_head_matches(matches, team_id1, team_id2)
         
         if head_to_head_matches:
@@ -147,7 +147,7 @@ def find_head_to_head_between_teams(team_id1, team_id2):
     else:
         return "Nenhum confronto direto encontrado entre os times."
 
-    # Detalhes dos confrontos diretos
+    
     head_to_head_details = []
     for match in head_to_head_matches:
         match_id = match['id']
@@ -161,15 +161,15 @@ def find_head_to_head_between_teams(team_id1, team_id2):
         return head_to_head_details
 
 def extract_teams_from_head_to_head(head_to_head_details):
-    # Lista para armazenar os detalhes dos times
+    
     teams_details = []
 
     if head_to_head_details and isinstance(head_to_head_details, list):
-        # Acessando o dicionário que contém os dados agregados
+        
         for head_to_head_detail in head_to_head_details:
             aggregates = head_to_head_detail.get('aggregates', {})
 
-            # Extraindo detalhes do time da casa
+            
             home_team = aggregates.get('homeTeam', {})
             home_team_details = {
                 'id': home_team.get('id'),
