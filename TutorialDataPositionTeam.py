@@ -1,5 +1,6 @@
 #Tutorial de uso do Data Position Team que serve para saber os dados de 1 único time
 from DataPosition import getPositionsTeams, processTableData
+import json
 
 competitionId = ''
 teamId = 86
@@ -44,3 +45,9 @@ for team in tableProcessed:
         break
     else:
         ...
+
+arquivo = 'DataPositionTeam.json'
+
+# Salvar os dados processados em um arquivo JSON
+with open(arquivo, 'w') as file:
+    json.dump(team_data, file, indent=4)

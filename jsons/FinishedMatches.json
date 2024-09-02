@@ -1,0 +1,74 @@
+[
+    {
+        "match_id": 498619,
+        "home_team": "RCD Mallorca",
+        "away_team": "Real Madrid CF",
+        "winner": "Draw",
+        "full_time_score": {
+            "home": 1,
+            "away": 1
+        },
+        "half_time_score": {
+            "home": 0,
+            "away": 1
+        },
+        "home_team_id": 89,
+        "away_team_id": 86,
+        "competition": "Primera Division",
+        "match_date": "2024-08-18T19:30:00Z"
+    },
+    {
+        "match_id": 498631,
+        "home_team": "Real Madrid CF",
+        "away_team": "Real Valladolid CF",
+        "winner": "Real Madrid CF",
+        "full_time_score": {
+            "home": 3,
+            "away": 0
+        },
+        "half_time_score": {
+            "home": 0,
+            "away": 0
+        },
+        "home_team_id": 86,
+        "away_team_id": 250,
+        "competition": "Primera Division",
+        "match_date": "2024-08-25T15:00:00Z"
+    },
+    {
+        "match_id": 498641,
+        "home_team": "UD Las Palmas",
+        "away_team": "Real Madrid CF",
+        "winner": "Draw",
+        "full_time_score": {
+            "home": 1,
+            "away": 1
+        },
+        "half_time_score": {
+            "home": 1,
+            "away": 0
+        },
+        "home_team_id": 275,
+        "away_team_id": 86,
+        "competition": "Primera Division",
+        "match_date": "2024-08-29T19:30:00Z"
+    },
+    {
+        "match_id": 498651,
+        "home_team": "Real Madrid CF",
+        "away_team": "Real Betis Balompi\u00e9",
+        "winner": "Real Madrid CF",
+        "full_time_score": {
+            "home": 2,
+            "away": 0
+        },
+        "half_time_score": {
+            "home": 0,
+            "away": 0
+        },
+        "home_team_id": 86,
+        "away_team_id": 90,
+        "competition": "Primera Division",
+        "match_date": "2024-09-01T19:30:00Z"
+    }
+]

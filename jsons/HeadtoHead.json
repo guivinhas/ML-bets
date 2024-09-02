@@ -1,0 +1,58 @@
+[
+    {
+        "filters": {
+            "limit": "100",
+            "permission": "TIER_ONE"
+        },
+        "resultSet": {
+            "count": 0
+        },
+        "aggregates": {
+            "numberOfMatches": 8,
+            "totalGoals": 20,
+            "homeTeam": {
+                "id": 524,
+                "name": "Paris Saint-Germain FC",
+                "wins": 0,
+                "draws": 2,
+                "losses": 0
+            },
+            "awayTeam": {
+                "id": 86,
+                "name": "Real Madrid CF",
+                "wins": 0,
+                "draws": 2,
+                "losses": 0
+            }
+        },
+        "matches": []
+    },
+    {
+        "filters": {
+            "limit": "100",
+            "permission": "TIER_ONE"
+        },
+        "resultSet": {
+            "count": 0
+        },
+        "aggregates": {
+            "numberOfMatches": 8,
+            "totalGoals": 20,
+            "homeTeam": {
+                "id": 86,
+                "name": "Real Madrid CF",
+                "wins": 0,
+                "draws": 2,
+                "losses": 0
+            },
+            "awayTeam": {
+                "id": 524,
+                "name": "Paris Saint-Germain FC",
+                "wins": 0,
+                "draws": 2,
+                "losses": 0
+            }
+        },
+        "matches": []
+    }
+]

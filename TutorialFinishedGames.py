@@ -1,6 +1,7 @@
 from FinishedGames import getFinishedGames, process_matches
+import json
 
-teamId = 61
+teamId = 86
 
 
 finished_games_from_team = getFinishedGames(teamId)
@@ -17,3 +18,9 @@ for match in processed_matches:
     print(f"Competition: {match['competition']}")
     print(f"Match Date: {match['match_date']}")
     print("-" * 30)
+
+    arquivo = 'FinishedMatches.json'
+
+# Salvar os dados processados em um arquivo JSON
+with open(arquivo, 'w') as file:
+    json.dump(processed_matches, file, indent=4)
